@@ -1355,7 +1355,7 @@ body {
 
 .contact-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: var(--space-32);
   max-width: 800px;
   margin: 0 auto;
@@ -1411,21 +1411,6 @@ body {
 
 .contact-details a:hover {
   color: var(--color-primary);
-}
-
-.contact-form-wrapper {
-  background: var(--color-surface);
-  border-radius: var(--radius-lg);
-  padding: var(--space-24);
-  border: 1px solid var(--color-card-border);
-}
-
-.contact-form .form-group {
-  margin-bottom: var(--space-20);
-}
-
-.contact-form .btn {
-  margin-top: var(--space-16);
 }
 
 /* Footer */
