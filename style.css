@@ -786,14 +786,10 @@ body {
 }
 
 .nav-link {
-  color: var(--color-text);
+  color: #ffffff;
   font-weight: var(--font-weight-medium);
   transition: color var(--duration-fast) var(--ease-standard);
   position: relative;
-}
-
-[data-color-scheme="light"] .nav-link {
-  color: #ffffff;
 }
 
 .nav-link:hover,
