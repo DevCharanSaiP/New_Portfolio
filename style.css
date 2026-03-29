@@ -792,6 +792,10 @@ body {
   position: relative;
 }
 
+[data-color-scheme="light"] .nav-link {
+  color: #ffffff;
+}
+
 .nav-link:hover,
 .nav-link.active {
   color: var(--color-primary);
